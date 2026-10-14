@@ -1,5 +1,8 @@
 # icon-check
 
+[![npm](https://img.shields.io/npm/v/icon-check)](https://www.npmjs.com/package/icon-check) [![downloads](https://img.shields.io/npm/dm/icon-check)](https://www.npmjs.com/package/icon-check) [![CI](https://github.com/nwebersoftware/icon-check/actions/workflows/ci.yml/badge.svg)](https://github.com/nwebersoftware/icon-check/actions/workflows/ci.yml)
+
+
 **Audit a PNG app icon against the App Store / Google Play rules** — dependency-free, runs anywhere.
 
 Icons are the sneakiest rejection: the app works, but the *artwork* fails review. `icon-check` reads
