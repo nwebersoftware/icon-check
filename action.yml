@@ -1,0 +1,23 @@
+name: icon-check
+description: Audit a PNG app icon against the App Store / Google Play icon rules.
+branding:
+  icon: image
+  color: purple
+
+inputs:
+  path:
+    description: Path to the PNG icon.
+    required: true
+  android:
+    description: Check for the Android adaptive-icon foreground instead of the iOS App Store icon.
+    required: false
+    default: "false"
+
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: |
+        ARGS=("${{ inputs.path }}")
+        if [ "${{ inputs.android }}" = "true" ]; then ARGS+=(--android); fi
+        node "${{ github.action_path }}/bin/icon-check.mjs" "${ARGS[@]}"

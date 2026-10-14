@@ -39,6 +39,15 @@ transparency channel you can’t even see. Background: <https://booleanbuild.com
 - [`store-check`](https://github.com/nwebersoftware/store-check) — Android (16 KB page size)
 - [`ipa-check`](https://github.com/nwebersoftware/ipa-check) — iOS `.ipa` submission audit
 
+## GitHub Action
+
+```yaml
+- uses: nwebersoftware/icon-check@main
+  with:
+    path: assets/icon.png
+    # android: "true"   # check the adaptive-icon foreground instead
+```
+
 ## License
 
 MIT.
