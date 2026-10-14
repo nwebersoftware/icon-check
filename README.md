@@ -11,8 +11,8 @@ the PNG header and flags the things reviewers bounce:
 ## Usage
 
 ```bash
-npx github:nwebersoftware/icon-check ./assets/icon.png
-npx github:nwebersoftware/icon-check ./assets/adaptive-icon.png --android
+npx icon-check ./assets/icon.png
+npx icon-check ./assets/adaptive-icon.png --android
 ```
 
 ```
