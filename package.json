@@ -1,0 +1,20 @@
+{
+  "name": "icon-check",
+  "version": "0.1.0",
+  "description": "Audit a PNG app icon against App Store / Google Play icon rules — dependency-free.",
+  "type": "module",
+  "bin": {
+    "icon-check": "bin/icon-check.mjs"
+  },
+  "files": ["bin", "src", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["ios", "android", "app-icon", "app-store", "google-play", "png", "release"],
+  "repository": { "type": "git", "url": "git+https://github.com/nwebersoftware/icon-check.git" },
+  "homepage": "https://github.com/nwebersoftware/icon-check#readme",
+  "bugs": { "url": "https://github.com/nwebersoftware/icon-check/issues" },
+  "author": "Boolean Build (a Boolean Bros project)",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
