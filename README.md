@@ -1,6 +1,6 @@
 # icon-check
 
-[![npm](https://img.shields.io/npm/v/icon-check)](https://www.npmjs.com/package/icon-check) [![downloads](https://img.shields.io/npm/dm/icon-check)](https://www.npmjs.com/package/icon-check) [![CI](https://github.com/nwebersoftware/icon-check/actions/workflows/ci.yml/badge.svg)](https://github.com/nwebersoftware/icon-check/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@njweber/icon-check)](https://www.npmjs.com/package/@njweber/icon-check) [![downloads](https://img.shields.io/npm/dm/@njweber/icon-check)](https://www.npmjs.com/package/@njweber/icon-check) [![CI](https://github.com/nwebersoftware/icon-check/actions/workflows/ci.yml/badge.svg)](https://github.com/nwebersoftware/icon-check/actions/workflows/ci.yml)
 
 
 **Audit a PNG app icon against the App Store / Google Play rules** — dependency-free, runs anywhere.
@@ -14,9 +14,12 @@ the PNG header and flags the things reviewers bounce:
 ## Usage
 
 ```bash
-npx icon-check ./assets/icon.png
-npx icon-check ./assets/adaptive-icon.png --android
+npx @njweber/icon-check ./assets/icon.png
+npx @njweber/icon-check ./assets/adaptive-icon.png --android
 ```
+
+(Published as `@njweber/icon-check`, like the rest of the family. The unscoped `icon-check`
+on npm is a legacy alias pinned at 0.1.0 — use the scoped name.)
 
 ```
 icon-check — app icon audit

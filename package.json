@@ -1,6 +1,7 @@
 {
-  "name": "icon-check",
+  "name": "@njweber/icon-check",
   "version": "0.1.0",
+  "publishConfig": { "access": "public" },
   "description": "Audit a PNG app icon against App Store / Google Play icon rules — dependency-free.",
   "type": "module",
   "bin": {
