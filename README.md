@@ -51,6 +51,12 @@ transparency channel you can’t even see. Background: <https://booleanbuild.com
     # android: "true"   # check the adaptive-icon foreground instead
 ```
 
+## Follow along
+
+More of this at **https://booleanbuild.com** — the tools hub, plus write-ups on store
+rejections, CI, build gates, and shipping TestFlight builds without EAS. New posts land
+roughly twice a month. Subscribe: https://booleanbuild.com/#subscribe
+
 ## License
 
 MIT.
